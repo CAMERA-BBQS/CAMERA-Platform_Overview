@@ -27,6 +27,8 @@ For more informations, please contact Dr. Brett E. Youngerman
 ## Funding
 This NIH-funded project is being developed in a phased R61/R33 framework.
 
+## Getting Started
+
 ## System Configuration
 
 ### Hardware Requirements
