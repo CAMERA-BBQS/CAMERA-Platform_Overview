@@ -29,31 +29,38 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
 
 ## Getting Started
 
-## System Configuration
+### System Configuration
 
-### Hardware Requirements
-- **iPad**  
-  - iPadOS XX or later  
-  - Tested on: iPad Pro (M1/M2)
+#### Hardware Requirements
+- **iPad**
+  - iPadOS 12 or later
 
-- **Host Computer**  
-  - macOS / Windows  
-  - Used for experiment control and data synchronization
+- **Host Computer**
+  - Windows
+  - Used for experiment control and data synchronization. Also host software like BCI2000, PyLinkUnity
 
-- **EEG System**  
+- **EEG System**
   - Natus
 
-- **Networking**  
+- **Networking**
   - Local Wi-Fi router (no internet required)
-- 
-### Software Requirements
+- **Wearable Device**
+  - Empetica
+    
+#### Software Requirements
 - [BCI2000](https://www.bci2000.org/mediawiki/index.php/Contributions:NatusADC)
 
-### Tested/Verified Configuration
-- iPad Pro (M1), iPadOS 17
-- Unity 2021.3 LTS
+#### Tested/Verified Configuration
+- iPad Pro (11-inch, M2), iPadOS 26.1
+- Unity 2022.3 LTS
 - Python 3.10
 - BCI2000
+
+
+### Setup
+
+### Running the System
+
 
 
 ## Repositories
