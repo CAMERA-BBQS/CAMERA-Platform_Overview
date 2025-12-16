@@ -20,6 +20,8 @@ research questions involving complex human behavior and cognition.
 
 [NIH Project Details](https://reporter.nih.gov/project-details/10801782)
 
+![CAMERA Architecture](images/architecture.png "CAMERA Architecture Diagram")
+
 ## Funding
 Supported by the National Institutes of Health (NIH)
 
