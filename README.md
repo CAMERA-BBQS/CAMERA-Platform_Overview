@@ -53,10 +53,14 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
   - Natus EEG System
 
 - **Networking**
-  - Local Wi-Fi router (no internet required)
+  - TP-Link Wi-Fi router (no internet required)
+
+- **Camera**
+  
+- **Microphone**
 
 - **Wearable Device**
-  - Empetica
+  - [Empetica Embrace Plus](https://www.empatica.com/embraceplus/)
     
 #### Software Requirements
 - [BCI2000](https://www.bci2000.org/mediawiki/index.php/Main_Page)
