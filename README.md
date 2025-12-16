@@ -27,14 +27,31 @@ For more informations, please contact Dr. Brett E. Youngerman
 ## Funding
 This NIH-funded project is being developed in a phased R61/R33 framework.
 
-## Getting started
-### Hardware
-- Cameras
-- Mics
-- Router
+## System Configuration
+
+### Hardware Requirements
+- **iPad**  
+  - iPadOS XX or later  
+  - Tested on: iPad Pro (M1/M2)
+
+- **Host Computer**  
+  - macOS / Windows  
+  - Used for experiment control and data synchronization
+
+- **EEG System**  
+  - Natus
+
+- **Networking**  
+  - Local Wi-Fi router (no internet required)
 - 
-### Software
+### Software Requirements
 - [BCI2000](https://www.bci2000.org/mediawiki/index.php/Contributions:NatusADC)
+
+### Tested/Verified Configuration
+- iPad Pro (M1), iPadOS 17
+- Unity 2021.3 LTS
+- Python 3.10
+- BCI2000
 
 
 ## Repositories
