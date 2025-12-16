@@ -1,13 +1,37 @@
 # CAMERA-Platform_Overview
-## Overview
-A system-level index and architectural overview of all repositories in the CAMERA (Context-Aware Multimodal Ecological Research and Assessment) Platform
+## Project Description
 
-This project seeks to develop the CAMERA (Context-Aware Multimodal Ecological Research and Assessment) platform, a state-of-the-art open multimodal hardware/software system for measuring human brain–behavior relationships. CAMERA will record neural, physiological, behavioral, and environmental signals, as well as measurements from ecological momentary assessments (EMAs), to develop a continuous high-resolution prediction of a person’s level of anxiety and cognitive performance. CAMERA will provide a significant advance over current methods for human behavioral measurement because it leverages the complementary features of multimodal data sources and combines them with interpretable machine learning to predict human behavior. A further distinctive aspect of CAMERA is that it incorporates context-aware, adaptive EMA, where the timing of assessments depend on the subject’s physiology and behavior to improve response rates and model learning. Our initial work on CAMERA focuses on predicting anxiety state and concurrent memory performance, but the platform is flexible for use in various domains. Our work on CAMERA consists of two phases. First, in the R61 phase, we will develop the CAMERA hardware/software framework, which includes methods for recording continuous neural, physiologic, audiovisual, and smartphone-usage data (Aim 1) and synchronizing these signals with intermittent EMAs (Aim 2). After demonstrating that CAMERA can successfully combine multimodal features to predict a subject’s anxiety state and memory efficiency (Aim 3), we will proceed to the R33 phase of the project. In the R33, we will use CAMERA in conjunction with closed-loop neurostimulation to modulate the subject’s anxiety state and associated memory performance (Aim 1), and to characterize the causal effect of modulation on neural, physiologic, and behavioral biomarkers (Aim 2). Beyond our initial work in the domain of anxiety and memory, we anticipate that CAMERA will have widespread impact by providing a general platform for exploratory and hypothesis-driven research on various aspects of complex human internal states, behavior, and cognition in real-world environments while minimizing burden on subjects.
+CAMERA (Context-Aware Multimodal Ecological Research and Assessment) is an NIH(National Institutes of Health)-funded,
+open multimodal hardware and software platform designed to measure and model
+human brain–behavior relationships in real-world environments. The platform integrates
+neural, physiological, behavioral, environmental, and ecological momentary assessment
+(EMA) data to enable continuous, high-resolution estimation of internal states such as
+anxiety and cognitive performance.
+
+A key innovation of CAMERA is its context-aware and adaptive EMA framework, in which
+assessment timing is dynamically informed by a participant’s physiology and behavior.
+By leveraging complementary multimodal data sources and interpretable machine learning
+methods, CAMERA aims to improve both measurement fidelity and participant compliance
+relative to existing approaches.
+
+While initial development focuses on modeling anxiety state and memory performance,
+CAMERA is designed as a flexible and extensible platform applicable to a broad range of
+research questions involving complex human behavior and cognition.
 
 [NIH Project Details](https://reporter.nih.gov/project-details/10801782)
+
+## Funding
+Supported by the National Institutes of Health (NIH)
 
 ## Repositories
 | Component | Repository | Description |
 |---------|------------|-------------|
 | Python Controller Hub | [`PyUnityLink`](https://github.com/CAMERA-BBQS/PyUnityLink) | Orchestrates sessions, triggers events, and synchronizes data |
 | iPad Client | `TH-ipad` | Unity-based experimental task running on iPad |
+
+## Contributors
+
+- Contact PI / Project Lead: [Dr. Joshua Jacobs](https://reporter.nih.gov/search/_0p7oWRw-065XKnozBRrpQ/projects), [Dr. Brett E. Youngerman](https://reporter.nih.gov/search/mvlMqElXV0mDThdQTgvReg/projects)
+- Other PIs: [Dr. Jorge Jose Ortiz](https://reporter.nih.gov/search/FX0wHwWZ4UyCqhxXvyyCqg/projects), [Dr. Alik S. Widge](https://reporter.nih.gov/search/v-9uhffp8UKASjdygio-rA/projects)
+- Core Development:
+- Collaborating Labs:
