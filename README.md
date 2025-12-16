@@ -9,5 +9,5 @@ This project seeks to develop the CAMERA (Context-Aware Multimodal Ecological Re
 ## Repositories
 | Component | Repository | Description |
 |---------|------------|-------------|
-| Python Controller Hub | `PyUnityLink` | Orchestrates sessions, triggers events, and synchronizes data |
+| Python Controller Hub | [`PyUnityLink`](https://github.com/CAMERA-BBQS/PyUnityLink) | Orchestrates sessions, triggers events, and synchronizes data |
 | iPad Client | `TH-ipad` | Unity-based experimental task running on iPad |
