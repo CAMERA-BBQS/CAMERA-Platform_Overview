@@ -20,7 +20,7 @@ research questions involving complex human behavior and cognition.
 
 [NIH Project Details](https://reporter.nih.gov/project-details/10801782)
 
-For more informations, please contact Dr. Brett E. Youngerman
+*For more informations, please contact Dr. Brett E. Youngerman*
 
 ![CAMERA Architecture](images/architecture.png "CAMERA Architecture Diagram")
 
