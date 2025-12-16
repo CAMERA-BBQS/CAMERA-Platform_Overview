@@ -20,6 +20,8 @@ research questions involving complex human behavior and cognition.
 
 [NIH Project Details](https://reporter.nih.gov/project-details/10801782)
 
+For more informations, please contact Dr. Brett E. Youngerman
+
 ![CAMERA Architecture](images/architecture.png "CAMERA Architecture Diagram")
 
 ## Funding
@@ -43,6 +45,6 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
 
 ## Contributors
 
-- PI: [Dr. Brett E. Youngerman](https://reporter.nih.gov/search/mvlMqElXV0mDThdQTgvReg/projects), Dr. Joshua Jacobs, Dr. Jorge Jose Ortiz, Dr. Alik S. Widge
+- PI: Dr. Brett E. Youngerman, Dr. Joshua Jacobs, Dr. Jorge Jose Ortiz, Dr. Alik S. Widge
 - Core Development:
 - Collaborating Labs:
