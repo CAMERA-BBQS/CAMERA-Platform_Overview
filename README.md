@@ -23,7 +23,7 @@ research questions involving complex human behavior and cognition.
 ![CAMERA Architecture](images/architecture.png "CAMERA Architecture Diagram")
 
 ## Funding
-Supported by the National Institutes of Health (NIH)
+This NIH-funded project is being developed in a phased R61/R33 framework.
 
 ## Repositories
 | Component | Repository | Description |
