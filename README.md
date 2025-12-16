@@ -54,11 +54,17 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
   - Natus EEG System
 
 - **Networking**
-  - TP-Link Wi-Fi router (no internet required)
+  - TP-Link AXE5400 Tri-Band WiFi 6E Router (Archer AXE75)
 
 - **Camera**
-  
+  - Logitech Brio PRO X 4K Webcam
+  - Mevo Core UHD 4K Mirrorless Streaming Camera paired with an Olympus 14–42mm lens
+    
 - **Microphone**
+  - RØDE NT55 Compact Condenser Microphone with Interchangeable Capsules
+
+- **Speaker**
+  - XKX Single USB Computer Speakers
 
 - **Wearable Device**
   - [Empetica Embrace Plus](https://www.empatica.com/embraceplus/)
@@ -67,12 +73,13 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
 - [BCI2000](https://www.bci2000.org/mediawiki/index.php/Main_Page)
 - [PyUnityLink](https://github.com/CAMERA-BBQS/PyUnityLink)
 - EMA iPad client
-- [Ksana Health](https://ksanahealth.com/)
+- [Empatica Care lab](https://apps.apple.com/us/app/empatica-care-lab/id6443699123)
+- [Ksana Health - Effortless Assessment Research System (EARS)](https://ksanahealth.com/ears/)
 
 
 #### Tested/Verified Configuration
 - [Windows PC](https://www.bhphotovideo.com/c/product/1885882-REG/cyberpowerpc_slcai7400cpgv2_gamer_supreme_liquid_cool.html/specs)
-- iPad Pro (11-inch, M2), iPadOS 26.1
+- [iPad Pro (11-inch, M2)](https://support.apple.com/en-us/118452), iPadOS 26.1
 - [Unity 2022.3 LTS](https://unity.com/releases/editor/archive)
 - [Python 3.9](https://www.python.org/downloads/release/python-390/)
 
