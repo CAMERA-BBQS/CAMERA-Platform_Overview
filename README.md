@@ -34,7 +34,7 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
 - Router
 - 
 ### Software
--BCI2000
+- [BCI2000](https://www.bci2000.org/mediawiki/index.php/Contributions:NatusADC)
 
 
 ## Repositories
