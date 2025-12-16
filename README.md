@@ -25,6 +25,10 @@ research questions involving complex human behavior and cognition.
 ## Funding
 This NIH-funded project is being developed in a phased R61/R33 framework.
 
+## Getting started
+-BCI2000
+
+
 ## Repositories
 | Component | Repository | Description |
 |---------|------------|-------------|
