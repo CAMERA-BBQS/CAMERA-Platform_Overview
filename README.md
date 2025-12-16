@@ -43,7 +43,6 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
 
 ## Contributors
 
-- Contact PI / Project Lead: [Dr. Joshua Jacobs](https://reporter.nih.gov/search/_0p7oWRw-065XKnozBRrpQ/projects), [Dr. Brett E. Youngerman](https://reporter.nih.gov/search/mvlMqElXV0mDThdQTgvReg/projects)
-- Other PIs: [Dr. Jorge Jose Ortiz](https://reporter.nih.gov/search/FX0wHwWZ4UyCqhxXvyyCqg/projects), [Dr. Alik S. Widge](https://reporter.nih.gov/search/v-9uhffp8UKASjdygio-rA/projects)
+- PI: [Dr. Brett E. Youngerman](https://reporter.nih.gov/search/mvlMqElXV0mDThdQTgvReg/projects), Dr. Joshua Jacobs, Dr. Jorge Jose Ortiz, Dr. Alik S. Widge
 - Core Development:
 - Collaborating Labs:
