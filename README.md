@@ -1,4 +1,6 @@
 # CAMERA-Platform_Overview
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+
 ## Project Description
 
 CAMERA (Context-Aware Multimodal Ecological Research and Assessment) is an NIH(National Institutes of Health)-funded,
@@ -27,16 +29,25 @@ research questions involving complex human behavior and cognition.
 ## Funding
 This NIH-funded project is being developed in a phased R61/R33 framework.
 
+## Use Cases
+- Clinical EMU deployments
+- Long-running BCI experiments
+- Synchronized EEG and behavioral data collection
+
 ## Getting Started
 
 ### System Configuration
 
 #### Hardware Requirements
+- **Host Computer - Windows**
+  - AMD Ryzen 9 9900X 12-Core (4.4 to 5.6 GHz)
+  - 32GB of 6000 MHz DDR5 RAM
+  - NVIDIA GeForce RTX 5070 GPU (12GB GDDR7)
+  - 2TB M.2 PCIe 4.0 SSD
+  - Windows 11 Home
+
 - **iPad**
   - iPadOS 12 or later
-
-- **Host Computer**
-  - Windows PC
 
 - **EEG System**
   - Natus EEG System
@@ -48,15 +59,17 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
   - Empetica
     
 #### Software Requirements
-- BCI2000
-- PyUnityLink
+- [BCI2000](https://www.bci2000.org/mediawiki/index.php/Main_Page)
+- [PyUnityLink](https://github.com/CAMERA-BBQS/PyUnityLink)
 - EMA iPad client
+- [Ksana Health](https://ksanahealth.com/)
 
 
 #### Tested/Verified Configuration
+- [Windows PC](https://www.bhphotovideo.com/c/product/1885882-REG/cyberpowerpc_slcai7400cpgv2_gamer_supreme_liquid_cool.html/specs)
 - iPad Pro (11-inch, M2), iPadOS 26.1
-- Unity 2022.3 LTS
-- Python 3.10
+- [Unity 2022.3 LTS](https://unity.com/releases/editor/archive)
+- [Python 3.9](https://www.python.org/downloads/release/python-390/)
 
 
 ### Setup
@@ -89,4 +102,17 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
 - Zhao, Chongkun, MS — Empatica & Kasana data analysis and linguistic feature engineering
 - Zhu, Hongkun, PhD — Data preprocessing, multimodal synchronization, and biomarker discovery
 
+## License
+Unless otherwise noted, repositories under this organization are released under the Apache License, Version 2.0.
+Individual repositories may include additional licensing terms; please refer to each repository's LICENSE file.
+
 ## To-do
+
+## About
+
+This repository contains a simplified, public-facing iPad Unity client derived from the
+CAMERA platform. It is intended for educational and demonstration purposes and does not
+include clinical, medical, or research deployment functionality.
+
+This repository is part of the CAMERA Platform.
+See the main guide here: 
