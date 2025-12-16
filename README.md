@@ -71,6 +71,29 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
 
 ## Contributors
 
-- PI: Dr. Brett E. Youngerman, Dr. Joshua Jacobs, Dr. Jorge Jose Ortiz, Dr. Alik S. Widge
-- Core Development:
-- Collaborating Labs:
+### Principal Investigators
+- Dr. Brett E. Youngerman
+- Dr. Joshua Jacobs
+- Dr. Jorge Jose Ortiz
+- Dr. Alik S. Widge
+
+### Data Analysis / PhD Students
+- Ehsan, Taqiya, MS
+- Han, Zhixian (Claire), MS
+- Li, Yangjia (Francis), MS
+- Xia, Shuren, MS
+- Zhao, Chongkun, MS
+- Zhu, Hongkun, PhD
+
+## To-do
+
+### Development / Data Analysis
+
+### Development
+ — Software Engineering
+
+-  — Data preprocessing & multimodal synchronization
+-  — EEG signal processing & feature engineering
+-  — Statistical modeling
+-  — Machine learning & multimodal prediction
+-  — Model interpretability & biomarker discovery
