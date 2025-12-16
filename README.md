@@ -26,6 +26,12 @@ research questions involving complex human behavior and cognition.
 This NIH-funded project is being developed in a phased R61/R33 framework.
 
 ## Getting started
+### Hardware
+- Cameras
+- Mics
+- Router
+- 
+### Software
 -BCI2000
 
 
