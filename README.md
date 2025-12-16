@@ -36,29 +36,32 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
   - iPadOS 12 or later
 
 - **Host Computer**
-  - Windows
-  - Used for experiment control and data synchronization. Also host software like BCI2000, PyLinkUnity
+  - Windows PC
 
 - **EEG System**
-  - Natus
+  - Natus EEG System
 
 - **Networking**
   - Local Wi-Fi router (no internet required)
+
 - **Wearable Device**
   - Empetica
     
 #### Software Requirements
-- [BCI2000](https://www.bci2000.org/mediawiki/index.php/Contributions:NatusADC)
+- BCI2000
+- PyUnityLink
+- EMA iPad client
+
 
 #### Tested/Verified Configuration
 - iPad Pro (11-inch, M2), iPadOS 26.1
 - Unity 2022.3 LTS
 - Python 3.10
-- BCI2000
 
 
 ### Setup
-
+- [BCI2000](https://www.bci2000.org/mediawiki/index.php/Contributions:NatusADC)
+- 
 ### Running the System
 
 
@@ -77,23 +80,13 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
 - Dr. Jorge Jose Ortiz
 - Dr. Alik S. Widge
 
-### Data Analysis / PhD Students
-- Ehsan, Taqiya, MS
-- Han, Zhixian (Claire), MS
-- Li, Yangjia (Francis), MS
-- Xia, Shuren, MS
-- Zhao, Chongkun, MS
-- Zhu, Hongkun, PhD
+### System Development & Data Analysis
+- Ehsan, Taqiya, MS — Audio data processing and multimodal predictive modeling
+- Li, Yangjia (Francis), MS - System architecture design and development
+- Xia, Shuren, MS — Video data processing and multimodal predictive modeling
+- Han, Zhixian (Claire), MS — Spatial navigation and memory data analysis
+- Wang, Linda, MD — STAI-6 (Spielberger State-Trait Anxiety Inventory) data analysis
+- Zhao, Chongkun, MS — Empatica & Kasana data analysis and linguistic feature engineering
+- Zhu, Hongkun, PhD — Data preprocessing, multimodal synchronization, and biomarker discovery
 
 ## To-do
-
-### Development / Data Analysis
-
-### Development
- — Software Engineering
-
--  — Data preprocessing & multimodal synchronization
--  — EEG signal processing & feature engineering
--  — Statistical modeling
--  — Machine learning & multimodal prediction
--  — Model interpretability & biomarker discovery
