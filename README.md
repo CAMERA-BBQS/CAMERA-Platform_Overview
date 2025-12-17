@@ -109,7 +109,7 @@ PyUnityLink serves as a Python-based orchestration hub, synchronizing control si
 1. Install **BCI2000** following the [official documentation](https://www.bci2000.org/mediawiki/index.php/Programming_Howto:Building_and_Customizing_BCI2000).
 2. Connect **Natus** to **BCI2000** following the [guide](https://www.bci2000.org/mediawiki/index.php/Contributions:NatusADC).
 3. Verify that BCI2000 can successfully acquire EEG data from the Natus system by starting a new **Natus** study.
-4. Configure event and state definitions in Bash start script which is required for synchronization with PyUnityLink. (Sample scripts are also provided in this repository)
+4. Configure event and state definitions in Bash start script which is required for synchronization with PyUnityLink. ([Sample scripts](https://github.com/CAMERA-BBQS/BCI2000) are also provided in this repository)
 
 #### 3. Network Configuration
 
@@ -221,6 +221,8 @@ The standalone demo includes the complete STAI-6 (Spielberger State-Trait Anxiet
 |---------|------------|-------------|
 | Python EMA Control Hub | [`PyUnityLink`](https://github.com/CAMERA-BBQS/PyUnityLink) | Orchestrates sessions, triggers events, and synchronizes data |
 | EMA iPad Client | [`TH-ipad`](https://testflight.apple.com/join/Qjbfa7gA) | Unity-based experimental task (STAI-6 Anxiety Accessment and "Treasrue Hunt" Spacial Memory Task) running on iPad |
+| Parameter Files and Initialization Scripts for BCI2000 | [BCI2000 Scripts](https://github.com/CAMERA-BBQS/BCI2000) | Configuration files and startup scripts used to initialize BCI2000 modules, define event/state mappings, and ensure synchronization with the CAMERA system. |
+
 
 ## Contributors
 
