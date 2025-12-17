@@ -201,7 +201,9 @@ data streams during offline analysis.
    ![PyUnityLink User Interface](images/EMA-control-hub.png "PyUnityLink User Interface")
 5. Monitor logs on both the host computer and iPad to verify proper synchronization and data recording.
 6. Study log files are kept in "PyUnityLink/logs" folder, and the system automatically generates and emails a daily summary to specified recipients.
+   <!--
    ![Sample EMA Daily Summary Email](images/ema-email.png "Sample EMA Daily Summary Email")
+   -->
 
 
 ## Repositories
