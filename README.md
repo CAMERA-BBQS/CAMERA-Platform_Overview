@@ -203,15 +203,16 @@ data streams during offline analysis.
 1. Start **BCI2000** and confirm EEG signal acquisition.
 2. Launch the Python controller on the host computer.
 3. Start the iPad client and wait for a successful connection to the controller.
-4. Use the Python controller interface to initiate sessions and trigger experimental events.
+4. To experience the application in standalone mode, select “Start.” To run the EMA as part of the full experimental setup—including BCI2000, the Natus EEG system, and other integrated components—select “Skip.” By default, the EMA will enter the full experimental mode if no selection is made.
+5. Use the Python controller interface to initiate sessions and trigger experimental events.
    ![PyUnityLink User Interface](images/EMA-control-hub.png "PyUnityLink User Interface")
-5. Monitor logs on both the host computer and iPad to verify proper synchronization and data recording.
-6. Study log files are kept in "PyUnityLink/logs" folder, and the system automatically generates and emails a daily summary to specified recipients.
+6. Monitor logs on both the host computer and iPad to verify proper synchronization and data recording.
+7. Study log files are kept in "PyUnityLink/logs" folder, and the system automatically generates and emails a daily summary to specified recipients.
    <!--
    ![Sample EMA Daily Summary Email](images/ema-email.png "Sample EMA Daily Summary Email")
    -->
 #### EMA Demo Video
-This video demonstrates an EMA session running on the iPad client. To experience the application in standalone mode, select “Start.” To run the EMA as part of the full experimental setup—including BCI2000, the Natus EEG system, and other integrated components—select “Skip.”
+This video demonstrates an EMA session running on the iPad client. 
 
 The standalone demo includes the complete STAI-6 (Spielberger State-Trait Anxiety Inventory) survey as well as a simplified version of the Treasure Hunt spatial memory task designed for ease of use and demonstration purposes. [Full Video](https://www.youtube.com/watch?v=TKAWqI3rj94)
 
