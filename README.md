@@ -157,7 +157,10 @@ After configuration:
 1. Install the EMA iPad client via [TestFlight](https://apps.apple.com/us/app/testflight/id899247664).
 2. Ensure the iPad is connected to the same local Wi-Fi network as the host computer.
 3. Disable auto-lock and background app refresh to support long-running sessions.
-4. [Guided Access](https://support.apple.com/en-us/111795) mode is recommended to prevent unintended user interaction; the application is fully compatible with Guided Access.
+4. 
+##### Note:
+- [Guided Access](https://support.apple.com/en-us/111795) mode is recommended to prevent unintended user interactions. The application is fully compatible with Guided Access.
+- The EMA app is optimized for the iPad Pro 11-inch screen. Running it on other iPad/iPhone models may result in black borders or display scaling issues.
 
 #### 5. Setup Empatica Wrisband - Embrace Plus
 
