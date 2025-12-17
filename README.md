@@ -91,18 +91,18 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
 
 ### Setup
 
-#### 1. Prepare the Host Computer
+#### 1. Setup PyUnityLink on the Host PC
+PyUnityLink serves as a Python-based orchestration hub, synchronizing control signals and data flow between BCI2000 and an iPad Unity client. It maintains comprehensive data logs in the /logs folder and provides an automated daily summary email to designated study participants or team members.
 
-1. Install **Windows 11** and ensure all system drivers are up to date.
-2. Install **Python 3.9** and verify the installation:
+1. Install **Python 3.9** and verify the installation:
    ```
    python --version
    ```
-3. Clone and set up PyUnityLink:
+2. Clone and set up PyUnityLink:
    ```
    git clone https://github.com/CAMERA-BBQS/PyUnityLink.git
    ```
-4. Install required Python dependencies as described in the PyUnityLink repository.
+3. Install required Python dependencies as described in the PyUnityLink repository.
 
 #### 2. Setup BCI2000 on the Host Computer
 
@@ -188,8 +188,9 @@ data streams during offline analysis.
 
 #### 5. Peripheral Devices
 
-1. Connect and configure cameras, microphones, speakers, and wearable devices according to vendor instructions.
-2. Verify that all devices are recognized by the host system and functioning correctly.
+1. Ensure all system drivers are up to date.
+2. Connect and configure cameras, microphones, speakers, and wearable devices according to vendor instructions.
+3. Verify that all devices are recognized by the host system and functioning correctly.
 
 ### Running the System
 
@@ -199,6 +200,7 @@ data streams during offline analysis.
 4. Use the Python controller interface to initiate sessions and trigger experimental events.
    ![PyUnityLink User Interface](images/EMA-control-hub.png "PyUnityLink User Interface")
 5. Monitor logs on both the host computer and iPad to verify proper synchronization and data recording.
+6. Study log files are kept in "PyUnityLink/logs" folder, and the system automatically generates and emails a daily summary to specified recipients.
 
 
 ## Repositories
