@@ -76,7 +76,7 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
 
 - [BCI2000](https://www.bci2000.org/mediawiki/index.php/Main_Page)
 - [PyUnityLink - Python EMA Hub](https://github.com/CAMERA-BBQS/PyUnityLink)
-- EMA iPad client
+- [EMA iPad Client](https://testflight.apple.com/join/Qjbfa7gA)
 - [Empatica Care lab](https://apps.apple.com/us/app/empatica-care-lab/id6443699123)
 - [Ksana Health - Effortless Assessment Research System (EARS)](https://ksanahealth.com/ears/)
 
@@ -220,7 +220,7 @@ The standalone demo includes the complete STAI-6 (Spielberger State-Trait Anxiet
 | Component | Repository | Description |
 |---------|------------|-------------|
 | Python EMA Control Hub | [`PyUnityLink`](https://github.com/CAMERA-BBQS/PyUnityLink) | Orchestrates sessions, triggers events, and synchronizes data |
-| EMA iPad Client | `TH-ipad` | Unity-based experimental task (STAI-6 Anxiety Accessment and "Treasrue Hunt" Spacial Memory Task) running on iPad |
+| EMA iPad Client | [`TH-ipad`](https://testflight.apple.com/join/Qjbfa7gA) | Unity-based experimental task (STAI-6 Anxiety Accessment and "Treasrue Hunt" Spacial Memory Task) running on iPad |
 
 ## Contributors
 
