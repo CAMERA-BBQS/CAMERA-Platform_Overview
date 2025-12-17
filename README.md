@@ -80,7 +80,7 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
 - [BCI2000](https://www.bci2000.org/mediawiki/index.php/Main_Page)
 - [PyUnityLink - Python EMA Hub](https://github.com/CAMERA-BBQS/PyUnityLink)
 - [EMA iPad Client](https://testflight.apple.com/join/Qjbfa7gA)
-- Empatica Care lab [iOS](https://apps.apple.com/us/app/empatica-care-lab/id6443699123)/[Android](https://play.google.com/store/apps/details?id=com.empatica.healthmonitor.lab&hl=en_US&pli=1)
+- Empatica Care lab - [iOS](https://apps.apple.com/us/app/empatica-care-lab/id6443699123)/[Android](https://play.google.com/store/apps/details?id=com.empatica.healthmonitor.lab&hl=en_US&pli=1)
 - Ksana Health - [Effortless Assessment Research System (EARS)](https://ksanahealth.com/ears/)
 
 
