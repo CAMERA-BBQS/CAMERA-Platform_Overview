@@ -243,6 +243,12 @@ The standalone demo includes the complete STAI-6 (Spielberger State-Trait Anxiet
 - Zhao, Chongkun, MS — Empatica & Kasana data analysis and linguistic feature engineering
 - Zhu, Hongkun, PhD — Data preprocessing, multimodal synchronization, and biomarker discovery
 
+## Acknowledgments
+
+This work uses the BCI2000 software, and we gratefully acknowledge the BCI2000 development team for their ongoing development and support.
+
+BCI2000: https://www.bci2000.org
+
 ## License
 
 Unless otherwise noted, repositories under this organization are released under the Apache License, Version 2.0.
