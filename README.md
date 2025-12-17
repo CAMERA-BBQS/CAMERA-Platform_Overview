@@ -221,7 +221,7 @@ The standalone demo includes the complete STAI-6 (Spielberger State-Trait Anxiet
 |---------|------------|-------------|
 | Python EMA Control Hub | [`PyUnityLink`](https://github.com/CAMERA-BBQS/PyUnityLink) | Orchestrates sessions, triggers events, and synchronizes data |
 | EMA iPad Client | [`TH-ipad`](https://testflight.apple.com/join/Qjbfa7gA) | Unity-based experimental task (STAI-6 Anxiety Accessment and "Treasrue Hunt" Spacial Memory Task) running on iPad |
-| Parameter Files and Initialization Scripts for BCI2000 | ['BCI2000 Scripts'](https://github.com/CAMERA-BBQS/BCI2000) | Configuration files and startup scripts used to initialize BCI2000 modules, define event/state mappings, and ensure synchronization with the CAMERA system. |
+| Parameter Files and Initialization Scripts for BCI2000 | [`BCI2000 Scripts`](https://github.com/CAMERA-BBQS/BCI2000) | Configuration files and startup scripts used to initialize BCI2000 modules, define event/state mappings, and ensure synchronization with the CAMERA system. |
 
 
 ## Contributors
