@@ -204,6 +204,13 @@ data streams during offline analysis.
    <!--
    ![Sample EMA Daily Summary Email](images/ema-email.png "Sample EMA Daily Summary Email")
    -->
+#### EMA Demo Video
+This video demonstrates an EMA session running on the iPad client. To experience the application in standalone mode, select “Start.” To run the EMA as part of the full experimental setup—including BCI2000, the Natus EEG system, and other integrated components—select “Skip.”
+
+The standalone demo includes the complete STAI-6 (Spielberger State-Trait Anxiety Inventory) survey as well as a simplified version of the Treasure Hunt spatial memory task designed for ease of use and demonstration purposes.
+
+[EMA Demo Video](https://www.youtube.com/watch?v=TKAWqI3rj94)
+   
 
 
 ## Repositories
