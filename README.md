@@ -109,7 +109,7 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
 1. Install **BCI2000** following the [official documentation](https://www.bci2000.org/mediawiki/index.php/Programming_Howto:Building_and_Customizing_BCI2000).
 2. Connect **Natus** to **BCI2000** following the [guide](https://www.bci2000.org/mediawiki/index.php/Contributions:NatusADC).
 3. Verify that BCI2000 can successfully acquire EEG data from the Natus system by starting a new **Natus** study.
-4. Configure event and state definitions in Bash start script which is required for synchronization with PyUnityLink. (Sample scripts used in this study)
+4. Configure event and state definitions in Bash start script which is required for synchronization with PyUnityLink. (Sample scripts are also provided in this repository)
 
 #### 3. Network Configuration
 
@@ -154,10 +154,10 @@ After configuration:
 
 #### 4. Install EMA iPad Client - STAI6 survey and "Treasrue Hunt" Memory Task
 
-1. Install the EMA iPad client via [TestgFlight](https://apps.apple.com/us/app/testflight/id899247664).
+1. Install the EMA iPad client via [TestFlight](https://apps.apple.com/us/app/testflight/id899247664).
 2. Ensure the iPad is connected to the same local Wi-Fi network as the host computer.
 3. Disable auto-lock and background app refresh to support long-running sessions.
-4. [Guided Access](https://support.apple.com/en-us/111795) mode is recommended and our app is complied with the Guided Access mode.
+4. [Guided Access](https://support.apple.com/en-us/111795) mode is recommended to prevent unintended user interaction; the application is fully compatible with Guided Access.
 
 #### 5. Setup Empatica Wrisband - Embrace Plus
 
@@ -171,8 +171,7 @@ The Empatica Embrace Plus wearable is used to collect continuous physiological d
 5. Verify that physiological signals are being recorded and streamed or logged correctly.
 6. Ensure the wearable is time-synchronized with the host system prior to experimental sessions.
 
-During long-running deployments, periodically verify battery status and data continuity
-using the Empatica Care Lab dashboard.
+During long-running deployments, periodically verify battery status and data continuity using the Empatica Care Lab dashboard.
 
 #### Setup Ksana Health - Effortless Assessment Research System (EARS)
 
@@ -235,11 +234,4 @@ Individual repositories may include additional licensing terms; please refer to 
 
 ## To-do
 
-## About
 
-This repository contains a simplified, public-facing iPad Unity client derived from the
-CAMERA platform. It is intended for educational and demonstration purposes and does not
-include clinical, medical, or research deployment functionality.
-
-This repository is part of the CAMERA Platform.
-See the main guide here: 
