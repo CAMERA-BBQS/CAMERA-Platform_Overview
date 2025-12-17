@@ -65,6 +65,9 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
     
 - **Microphone**
   - RØDE NT55 Compact Condenser Microphone with Interchangeable Capsules
+ 
+- **Audio Interface**
+  - RØDE AI-1 USB-C Audio Interface
 
 - **Speaker**
   - XKX Single USB Computer Speakers
