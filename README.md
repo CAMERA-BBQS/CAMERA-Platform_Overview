@@ -3,7 +3,7 @@
 
 ## Project Description
 
-CAMERA (Context-Aware Multimodal Ecological Research and Assessment) is an NIH(National Institutes of Health)-funded,
+CAMERA (Context-Aware Multimodal Ecological Research and Assessment) is an NIH (National Institutes of Health)-funded,
 open multimodal hardware and software platform designed to measure and model
 human brain–behavior relationships in real-world environments. The platform integrates
 neural, physiological, behavioral, environmental, and ecological momentary assessment
