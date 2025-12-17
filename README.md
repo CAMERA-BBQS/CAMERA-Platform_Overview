@@ -77,8 +77,8 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
 - [BCI2000](https://www.bci2000.org/mediawiki/index.php/Main_Page)
 - [PyUnityLink - Python EMA Hub](https://github.com/CAMERA-BBQS/PyUnityLink)
 - [EMA iPad Client](https://testflight.apple.com/join/Qjbfa7gA)
-- [Empatica Care lab](https://apps.apple.com/us/app/empatica-care-lab/id6443699123)
-- [Ksana Health - Effortless Assessment Research System (EARS)](https://ksanahealth.com/ears/)
+- Empatica Care lab [iOS](https://apps.apple.com/us/app/empatica-care-lab/id6443699123)/[Android](https://play.google.com/store/apps/details?id=com.empatica.healthmonitor.lab&hl=en_US&pli=1)
+- Ksana Health - [Effortless Assessment Research System (EARS)](https://ksanahealth.com/ears/)
 
 
 #### 3. Tested/Verified Configuration
@@ -154,10 +154,10 @@ After configuration:
 
 #### 4. Install EMA iPad Client - STAI6 survey and "Treasrue Hunt" Memory Task
 
-1. Install the EMA iPad client via [TestFlight](https://apps.apple.com/us/app/testflight/id899247664).
+1. Install the [EMA iPad client](https://testflight.apple.com/join/Qjbfa7gA) via [TestFlight](https://apps.apple.com/us/app/testflight/id899247664).
 2. Ensure the iPad is connected to the same local Wi-Fi network as the host computer.
 3. Disable auto-lock and background app refresh to support long-running sessions.
-4. 
+   
 ##### Note:
 - [Guided Access](https://support.apple.com/en-us/111795) mode is recommended to prevent unintended user interactions. The application is fully compatible with Guided Access.
 - The EMA app is optimized for the iPad Pro 11-inch screen. Running it on other iPad/iPhone models may result in black borders or display scaling issues.
