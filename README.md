@@ -181,8 +181,7 @@ smartphone-based behavioral, linguistic, and ecological momentary assessment (EM
 1. Install the **Ksana Health – EARS** application on the participant’s smartphone.
 2. Configure the study protocol and EMA schedule via the Ksana research dashboard.
 3. Assign the participant to the appropriate study configuration.
-4. Verify that EMA prompts, passive data collection, and logging are functioning as expected.
-5. Ensure timestamps and device clocks are aligned with the rest of the CAMERA platform.
+4. Ensure timestamps and device clocks are aligned with the rest of the CAMERA platform.
 
 Data collected via EARS are later synchronized with neural, physiological, and behavioral
 data streams during offline analysis.
@@ -198,6 +197,7 @@ data streams during offline analysis.
 2. Launch the Python controller on the host computer.
 3. Start the iPad client and wait for a successful connection to the controller.
 4. Use the Python controller interface to initiate sessions and trigger experimental events.
+   ![PyUnityLink User Interface](images/EMA-control-hub.png "PyUnityLink User Interface")
 5. Monitor logs on both the host computer and iPad to verify proper synchronization and data recording.
 
 
