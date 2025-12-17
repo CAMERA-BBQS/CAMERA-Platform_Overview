@@ -28,9 +28,11 @@ research questions involving complex human behavior and cognition.
 *For more informations, please contact Dr. Brett E. Youngerman*
 
 ## Funding
+
 This NIH-funded project is being developed in a phased R61/R33 framework.
 
 ## Use Cases
+
 - Clinical EMU deployments
 - Long-running BCI experiments
 - Synchronized EEG and behavioral data collection
@@ -40,6 +42,7 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
 ### System Configuration
 
 #### 1. Hardware Requirements
+
 - **Host Computer - Windows**
   - AMD Ryzen 9 9900X 12-Core (4.4 to 5.6 GHz)
   - 32GB of 6000 MHz DDR5 RAM
@@ -70,6 +73,7 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
   - [Empetica Embrace Plus](https://www.empatica.com/embraceplus/)
     
 #### 2. Software Requirements
+
 - [BCI2000](https://www.bci2000.org/mediawiki/index.php/Main_Page)
 - [PyUnityLink - Python EMA Hub](https://github.com/CAMERA-BBQS/PyUnityLink)
 - EMA iPad client
@@ -78,6 +82,7 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
 
 
 #### 3. Tested/Verified Configuration
+
 - [Windows PC](https://www.bhphotovideo.com/c/product/1885882-REG/cyberpowerpc_slcai7400cpgv2_gamer_supreme_liquid_cool.html/specs)
 - [iPad Pro (11-inch, M2)](https://support.apple.com/en-us/118452), iPadOS 26.1
 - [Unity 2022.3 LTS](https://unity.com/releases/editor/archive)
@@ -85,7 +90,9 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
 
 
 ### Setup
+
 #### 1. Prepare the Host Computer
+
 1. Install **Windows 11** and ensure all system drivers are up to date.
 2. Install **Python 3.9** and verify the installation:
    ```
@@ -98,6 +105,7 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
 4. Install required Python dependencies as described in the PyUnityLink repository.
 
 #### 2. Setup BCI2000 on the Host Computer
+
 1. Install **BCI2000** following the [official documentation](https://www.bci2000.org/mediawiki/index.php/Programming_Howto:Building_and_Customizing_BCI2000).
 2. Connect **Natus** to **BCI2000** following the [guide](https://www.bci2000.org/mediawiki/index.php/Contributions:NatusADC).
 3. Verify that BCI2000 can successfully acquire EEG data from the Natus system by starting a new **Natus** study.
@@ -121,7 +129,7 @@ binds a fixed local IP address to each device’s MAC address.
 
 Repeat this process for all core system components, including:
 - Host PC (EMA Control Hub)
-- iPad client
+- EMA iPad client (STAI-6 Anxiety Accessment and "Treasrue Hunt" Spacial Memory Task)
 - Natus EEG acquisition system
 - Any auxiliary acquisition or logging devices
 
@@ -142,7 +150,7 @@ After configuration:
    ping 192.168.0.101
    ```
 3. Verify bidirectional communication between the EMA control hub and the iPad client.
-4. Confirm stable, low-latency operation during extended test runs and data recording. (Latency logs are recorded in PyUnityLink)
+4. Confirm stable, low-latency operation during extended test runs and data recording. (PyUnityLink also keeps a copy of the latency logs during the study.)
 
 #### 4. Install EMA iPad Client - STAI6 survey and "Treasrue Hunt" Memory Task
 
@@ -166,7 +174,7 @@ The Empatica Embrace Plus wearable is used to collect continuous physiological d
 During long-running deployments, periodically verify battery status and data continuity
 using the Empatica Care Lab dashboard.
 
-#### Setup Ksana Health (EARS)
+#### Setup Ksana Health - Effortless Assessment Research System (EARS)
 
 Ksana Health’s Effortless Assessment Research System (EARS) is used to collect
 smartphone-based behavioral, linguistic, and ecological momentary assessment (EMA) data.
@@ -181,10 +189,12 @@ Data collected via EARS are later synchronized with neural, physiological, and b
 data streams during offline analysis.
 
 #### 5. Peripheral Devices
+
 1. Connect and configure cameras, microphones, speakers, and wearable devices according to vendor instructions.
 2. Verify that all devices are recognized by the host system and functioning correctly.
 
 ### Running the System
+
 1. Start **BCI2000** and confirm EEG signal acquisition.
 2. Launch the Python controller on the host computer.
 3. Start the iPad client and wait for a successful connection to the controller.
@@ -193,20 +203,23 @@ data streams during offline analysis.
 
 
 ## Repositories
+
 | Component | Repository | Description |
 |---------|------------|-------------|
 | Python EMA Control Hub | [`PyUnityLink`](https://github.com/CAMERA-BBQS/PyUnityLink) | Orchestrates sessions, triggers events, and synchronizes data |
-| EMA iPad Client | `TH-ipad` | Unity-based experimental task (STAI6 survey and "Treasrue Hunt" Memory Task) running on iPad |
+| EMA iPad Client | `TH-ipad` | Unity-based experimental task (STAI-6 Anxiety Accessment and "Treasrue Hunt" Spacial Memory Task) running on iPad |
 
 ## Contributors
 
 ### Principal Investigators
+
 - Dr. Brett E. Youngerman
 - Dr. Joshua Jacobs
 - Dr. Jorge Jose Ortiz
 - Dr. Alik S. Widge
 
 ### System Development & Data Analysis
+
 - Ehsan, Taqiya, MS — Audio data processing and multimodal predictive modeling
 - Li, Yangjia (Francis), MS - System architecture design and development
 - Xia, Shuren, MS — Video data processing and multimodal predictive modeling
@@ -216,6 +229,7 @@ data streams during offline analysis.
 - Zhu, Hongkun, PhD — Data preprocessing, multimodal synchronization, and biomarker discovery
 
 ## License
+
 Unless otherwise noted, repositories under this organization are released under the Apache License, Version 2.0.
 Individual repositories may include additional licensing terms; please refer to each repository's LICENSE file.
 
