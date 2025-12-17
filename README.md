@@ -209,7 +209,7 @@ This video demonstrates an EMA session running on the iPad client. To experience
 
 The standalone demo includes the complete STAI-6 (Spielberger State-Trait Anxiety Inventory) survey as well as a simplified version of the Treasure Hunt spatial memory task designed for ease of use and demonstration purposes.
 
-[EMA Demo Video](https://www.youtube.com/watch?v=TKAWqI3rj94)
+[![EMA Demo Video](images/demo-thumbnail.png)](https://www.youtube.com/watch?v=TKAWqI3rj94)
    
 
 
