@@ -92,7 +92,7 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
 ### Setup
 
 #### 1. Setup PyUnityLink on the Host PC
-PyUnityLink serves as a Python-based orchestration hub, synchronizing control signals and data flow between BCI2000 and an iPad Unity client. It maintains comprehensive data logs in the /logs folder and provides an automated daily summary email to designated study participants or team members.
+PyUnityLink serves as a Python-based orchestration hub, synchronizing control signals and data flow between BCI2000 and an iPad Unity client. It maintains comprehensive data logs in the /logs folder and provides an automated daily summary email to designated study participants or team members. Any system errors trigger immediate notification emails to ensure timely awareness.
 
 1. Install **Python 3.9** and verify the installation:
    ```
@@ -201,6 +201,7 @@ data streams during offline analysis.
    ![PyUnityLink User Interface](images/EMA-control-hub.png "PyUnityLink User Interface")
 5. Monitor logs on both the host computer and iPad to verify proper synchronization and data recording.
 6. Study log files are kept in "PyUnityLink/logs" folder, and the system automatically generates and emails a daily summary to specified recipients.
+   ![Sample EMA Daily Summary Email](images/EMA-email.png "Sample EMA Daily Summary Email")
 
 
 ## Repositories
