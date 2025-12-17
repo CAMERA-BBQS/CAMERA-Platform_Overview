@@ -95,7 +95,7 @@ This NIH-funded project is being developed in a phased R61/R33 framework.
 ### Setup
 
 #### 1. Setup PyUnityLink on the Host PC
-PyUnityLink serves as a Python-based orchestration hub, synchronizing control signals and data flow between BCI2000 and an iPad Unity client. It maintains comprehensive data logs in the /logs folder and provides an automated daily summary email to designated study participants or team members. Any system errors trigger immediate notification emails to ensure timely awareness.
+PyUnityLink serves as a Python-based control hub, synchronizing control signals and data flow between BCI2000 and an iPad Unity client. It maintains comprehensive data logs in the /logs folder and provides an automated daily summary email to designated study participants or team members. Any system errors trigger immediate notification emails to ensure timely awareness.
 
 1. Install **Python 3.9** and verify the installation:
    ```
