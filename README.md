@@ -132,7 +132,7 @@ binds a fixed local IP address to each device’s MAC address.
 
 Repeat this process for all core system components, including:
 - Host PC (EMA Control Hub)
-- EMA iPad client (STAI-6 Anxiety Accessment and "Treasrue Hunt" Spacial Memory Task)
+- EMA iPad client (VAS and STAI-6 Anxiety Accessment, and "Treasrue Hunt" Spacial Memory Task)
 - Natus EEG acquisition system
 - Any auxiliary acquisition or logging devices
 
@@ -224,7 +224,7 @@ The standalone demo includes the complete STAI-6 (Spielberger State-Trait Anxiet
 | Component | Repository | Description |
 |---------|------------|-------------|
 | Python EMA Control Hub | [`PyUnityLink`](https://github.com/CAMERA-BBQS/PyUnityLink) | Orchestrates sessions, triggers events, and synchronizes data |
-| EMA iPad Client | [`TH-ipad`](https://testflight.apple.com/join/Qjbfa7gA) | Unity-based experimental task (STAI-6 Anxiety Accessment and "Treasrue Hunt" Spacial Memory Task) running on iPad |
+| EMA iPad Client | [`TH-ipad`](https://testflight.apple.com/join/Qjbfa7gA) | Unity-based experimental task (VAS and STAI-6 Anxiety Accessment, and "Treasrue Hunt" Spacial Memory Task) running on iPad |
 | Parameter Files and Initialization Scripts for BCI2000 | [`BCI2000`](https://github.com/CAMERA-BBQS/BCI2000) | Configuration files and startup scripts used to initialize BCI2000 modules, define event/state mappings, and ensure synchronization with the CAMERA system. |
 
 
@@ -243,7 +243,7 @@ The standalone demo includes the complete STAI-6 (Spielberger State-Trait Anxiet
 - Li, Yangjia (Francis), MS - System architecture design and development
 - Xia, Shuren, MS — Video data processing and multimodal predictive modeling
 - Han, Zhixian (Claire), MS — Spatial navigation and memory data analysis
-- Wang, Linda, MD — STAI-6 (Spielberger State-Trait Anxiety Inventory) data analysis
+- Wang, Linda, MD — VAS (Visual Analogue Scale) and STAI-6 (Spielberger State-Trait Anxiety Inventory) accessment data analysis
 - Zhao, Chongkun, MS — Empatica & Kasana data analysis and linguistic feature engineering
 - Zhu, Hongkun, PhD — Data preprocessing, multimodal synchronization, and biomarker discovery
 
